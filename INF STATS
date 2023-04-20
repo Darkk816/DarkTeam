@@ -1,0 +1,22 @@
+--Warning [ This Does NOT Support Namekian to Namekian Inf statting you will risk wiping your slot ]
+
+--[[
+    This Inf Stat Script Require's a ping of at least 200 - 280 to run fine
+    you require two slot's
+    One Namekian Second Is the Slot you want to give stat's to
+    Select the slots accordingly turn your VPN on and just go eat popcorn or sum
+    Recommend having a auto reloader for loading back into FS for any problems that may happen during run's
+    Report Any Bug's In the Discord Server
+]]
+
+getgenv().Namekian = "Slot1"
+getgenv().PointSlot = "Slot3"
+getgenv().MaxPoints = math.huge --math.huge is basiclly inf so change it to what you want
+getgenv().HideClientName = false --This hides The Users name to show proof of stat's
+getgenv().CustomSlotChangeSpeed = 0.28 --This changes how fast you switch slots
+getgenv().ReplicatedLag = 0 --This will simulate lag not make it so vpn is recommended but this sometimes can help
+getgenv().KamiChatDelay = 0.2
+
+-------------------------------------------------------------------------------------------------------------
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheUnknownScripter/Roblox-Scripts/main/Dragon%20Ball%20Z%20Final%20Stand/Auto%20Inf%20Stat.lua"))()
