@@ -1,0 +1,39 @@
+--To Make Your Wish Its based of numbers 
+--[ 1 = 100K Zenni - 2 = Prestige - 3 = Remove Level Cap - 4 = More EXP Normal Top ]
+--[ 5 = Death - 6 = G.O.D Form - 7 = Nothing ]
+
+--[ To Auto Teleport To T.O.P put 1 to Auto Teleport To Hard T.O.P do 2 ]
+
+getgenv().Settings = {
+	ClientSettings = {
+		AdvertiseServer = false, --Advertise my server ;P
+		TwoXFreeze = false, --freezes 2x exp if you have it
+		NoCharge = false, --disables charging on load
+		Invis = false, --makes your character invis
+		CarryMode = false, --tells everyone your carrying
+		AutoBean = true, --auto buy's bean's
+	},
+	TimeSettings = {
+		TopTimerLimit = 300, --how long you stay in top before it kicks you
+	},
+	TopSettings = {
+		AutoWish = true, --simple
+		Wish = 1, --wishes are on top
+		Queue = true, --takes you to queue or not
+		AutoTeleportToSeat = 1, --seats on top
+	},
+}
+
+getgenv().Moves = {
+	"TS Molotov",
+	"Wolf Fang Fist",
+	"Anger Rush",
+	"Meteor Crash",
+	"Demon Flash",
+	"Flash Skewer",
+	"Deadly Dance",
+	"Neo Wolf Fang Fist",
+	"God Slicer",
+}
+
+--------------------------------------------------------
